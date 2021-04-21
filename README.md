@@ -3,7 +3,7 @@
 - Proje Java programlama dilinde yazılmıştır
 - Proje Maven projesi olarak yazılmıştır.
 - Selenium, JUnit ve Log4J kütüphanelerini kullanılarak oluşturulmuştur.
-- Projede OOP (Object Oriented Programming) prensiplerine kullanılmıştır.
+- Projede OOP (Object Oriented Programming) prensipleri kullanılmıştır.
 
 Selenium Web Otomasyon Programının çalışma aşamaları:
 
