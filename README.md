@@ -19,13 +19,19 @@ Selenium Web Otomasyon Programının çalışma aşamaları:
 - Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
 - Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.
 
-# Kod Bilgisi
+## Kod Bilgisi
 
-MethodsPool.java : Tüm gerekli fonksiyon ve metodların yer aldığı sınıftır. Her aşamanın işlemine bağımsız erişim sağlamamıza olanak tanır.
+### MethodsPool.java : 
 
-TestBasics.java : Teste başlamadan ve test grubu bittikten sonra yapılması gereken işlemlerin bulunduğu başka projelere de kolayca entegre edebileceğimiz temel kısımdır.
+Tüm gerekli fonksiyon ve metodların yer aldığı sınıftır. Her aşamanın işlemine bağımsız erişim sağlamamıza olanak tanır.
 
-TestOperation.java : İstenilen görevlerin yerine getirildiği operasyon merkezidir. TestBasics sınıfı ile Inheritance bağlantısı vardır. Bu sayede @Before @After işlemlerine buradan ulaşır. Olası bir değişimde ise sadece bu merkeze eklemeler ve çıkartmlar yapılarak operasyon sürdürülür.
+### TestBasics.java :
+
+Teste başlamadan ve test grubu bittikten sonra yapılması gereken işlemlerin bulunduğu başka projelere de kolayca entegre edebileceğimiz temel kısımdır.
+
+### TestOperation.java :
+
+İstenilen görevlerin yerine getirildiği operasyon merkezidir. TestBasics sınıfı ile Inheritance bağlantısı vardır. Bu sayede @Before @After işlemlerine buradan ulaşır. Olası bir değişimde ise sadece bu merkeze eklemeler ve çıkartmlar yapılarak operasyon sürdürülür.
 
 
 
